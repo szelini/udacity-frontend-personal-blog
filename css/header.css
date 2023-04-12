@@ -1,0 +1,46 @@
+header {
+   background-color:#889696;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin:  0 auto;
+    padding: 10px;
+    line-height: 2rem;
+}
+
+.nav-links li {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 10px;
+    
+}
+
+.nav-btn {
+    text-decoration: none;
+    color:#F4F5F5
+  
+}
+
+.nav-search{
+    margin: auto 10px auto 0;
+}
+
+.nav-search button {
+    background-color: #F4F5F5;
+    color: #889696;;
+    font-size: 1.1rem;
+    border: 1px solid #889696;
+    border-radius: 2px;
+}
+
+.nav-search input {
+    background-color: #F4F5F5;
+    color: #889696;
+    font-size: 1.1rem;
+    border: 1px solid #889696;
+    border-radius: 2px;
+}

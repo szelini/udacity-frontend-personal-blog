@@ -1,0 +1,84 @@
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+@import "card.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:  0 auto;
+}
+
+.title-section {
+    background: rgb(95,116,112);
+    background: linear-gradient(60deg, rgba(95,116,112,1) 30%, rgba(83,101,98,1) 70%);
+    padding: 10vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #F4F6F5;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #18251E;
+    margin-bottom: 20px;
+}
+
+.hiking-section {
+    background-color: #F5F5F4;
+    color: white;
+    padding: 20px;
+}
+
+.beading-section {
+    background-color: #ECEDE8;
+    color: white;
+    padding: 20px;
+}
+
+.grid-container {
+        display: grid;
+        max-width: 1120px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: min-content;
+        gap: 20px;
+        margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        display: grid;
+        max-width: 730px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: min-content;
+        gap: 10px;
+        margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 576px) {
+
+    .grid-container {
+        display: grid;
+        max-width: 380px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+        gap: 10px;
+        margin: 0 auto;
+    }
+}
+
